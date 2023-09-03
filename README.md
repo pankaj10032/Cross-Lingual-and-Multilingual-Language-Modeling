@@ -40,3 +40,21 @@ Multilingual Models: Pre-trained multilingual models like mBERT, XLM-R, and othe
 
 *Applications of cross lingual similarity*:-
 Cross-lingual text similarity has applications in information retrieval, document clustering, plagiarism detection, and machine translation evaluation
+
+
+**Cross lingual zero shot learning:-**
+Cross-lingual zero-shot learning is a challenging and advanced task in natural language processing (NLP) and machine learning. It involves training a model to perform a classification or prediction task in a target language without having access to any labeled data or training examples in that language. Instead, the model relies on its understanding of a source language and a mapping between source and target languages to make predictions.
+
+Source Language Knowledge: The model is first trained on a labeled dataset in a source language. It learns to understand and perform tasks in this source language effectively.
+
+Mapping or Alignment: In order to perform zero-shot learning in a target language, a mapping or alignment is established between the source and target languages. This mapping can be based on various linguistic features, such as word embeddings, language embeddings, or cross-lingual embeddings. It helps bridge the gap between the two languages and allows the model to transfer its knowledge.
+
+Zero-Shot Learning: With the mapping in place, the model can now be used to perform classification or prediction tasks in the target language without any labeled data from that language. Instead, it relies on its understanding of the source language and the alignment to make predictions.
+
+**Key techniques and considerations in cross-lingual zero-shot learning include:**
+
+Cross-Lingual Embeddings: Using pre-trained cross-lingual word embeddings or sentence embeddings can help establish a common representation space for multiple languages.
+
+Language Modeling: Pre-trained multilingual language models like mBERT or XLM-R can be fine-tuned for zero-shot learning in a target language.
+
+Knowledge Transfer: The model leverages its knowledge of the source language to make predictions in the target language. This transfer of knowledge can be based on shared concepts, word translations, or cross-lingual semantic information.
