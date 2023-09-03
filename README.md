@@ -110,3 +110,26 @@ Experiment with different optimization algorithms (e.g., Adam, SGD), learning ra
 Implement techniques like early stopping to prevent overfitting and save the best model checkpoint during training.
 
 **Here we have used MBERT and XLM-R as the multiingual models and have follow the same steps, have got a training accuracy of 96.8% , Validation and test accurayc are somewhere around the 91.25%.**
+
+
+# **Visualizing the cross lingaul textual similarity**
+Visualizing cross-lingual textual similarity can help us gain insights into how different pieces of text in various languages are related to each other
+
+Here are some visualization techniques and approaches to visualize cross-lingual textual similarity:
+
+Multidimensional Scaling (MDS):
+
+MDS is a technique that can be used to visualize textual similarity in a low-dimensional space. It maps high-dimensional similarity scores between text documents into a two- or three-dimensional space for visualization.
+You can compute similarity scores (e.g., cosine similarity, Jaccard similarity) between pairs of text documents in different languages and then use MDS to create a scatter plot where each point represents a document. Documents that are similar will be closer in the plot.
+Heatmaps:
+
+Create a heatmap that shows a matrix of similarity scores between pairs of text documents. The rows and columns of the matrix correspond to the documents, and the color intensity in each cell represents the similarity score.
+You can use different color scales to highlight similarities and differences effectively.
+t-SNE (t-distributed Stochastic Neighbor Embedding):
+
+t-SNE is a dimensionality reduction technique that can be used to visualize textual similarity. It aims to preserve the pairwise similarities between data points in a lower-dimensional space.
+Calculate similarity scores and then apply t-SNE to project the documents into a two-dimensional space. This will allow you to see how documents cluster based on similarity.
+Word Clouds:
+
+Create word clouds for each text document to visualize the most prominent terms. You can use different colors or sizes to represent the frequency or importance of words.
+Overlay word clouds from different languages to compare and identify common terms or themes.
