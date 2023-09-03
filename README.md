@@ -108,3 +108,5 @@ Training Strategy:
 Use the training set to fine-tune the model. This typically involves minimizing a loss function that measures the difference between model predictions and ground-truth labels.
 Experiment with different optimization algorithms (e.g., Adam, SGD), learning rates, and batch sizes to find the best hyperparameters for your task.
 Implement techniques like early stopping to prevent overfitting and save the best model checkpoint during training.
+
+**Here we have used MBERT and XLM-R as the multiingual models and have follow the same steps, have got a training accuracy of 96.8% , Validation and test accurayc are somewhere around the 91.25%.**
